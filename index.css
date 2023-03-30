@@ -27,8 +27,6 @@ body{
     width: 100%;
     height: 70%;
     border-radius: 13px;
-    
-
 }
 .container-side{
     width: 50%;
@@ -129,5 +127,10 @@ label{
     }
     .container-main{
         width: 100%;
+    }
+    .container{
+        max-width: 350px;
+        width: 100%;
+        height: 70%;
     }
 }
