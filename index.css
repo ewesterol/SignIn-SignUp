@@ -31,9 +31,9 @@ body{
 
 }
 .container-side{
-    width: 40%;
+    width: 50%;
     height: 100%;
-    background: url("images/bg-sidebar-desktop.svg");
+    background: url("images/illustration-hero.svg");
     background-repeat: no-repeat;
     background-size:cover;
     background-color: white;
@@ -45,7 +45,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 50%;
     height: 100%;
     background-color: white;
 }
