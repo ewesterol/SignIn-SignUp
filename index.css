@@ -92,6 +92,9 @@ label{
 }
 .check{
     margin-right: 5px;
+   height: 30px;
+   width: 30px;
+    accent-color: #485BBC;
     
 }
 .sign-up{
@@ -113,7 +116,6 @@ label{
     background-color: #4259C0;
     text-align: center;
     border-radius: 50%;
-    
 }
 .arrow-right i{
     font-size: 1.2em;
