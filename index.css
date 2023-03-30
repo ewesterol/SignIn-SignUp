@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+font-family: 'Happy Monkey', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #eaeefd;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 650px;
+    width: 100%;
+    height: 70%;
+    border: 2px solid;
+    border-radius: 13px;
+    overflow: hidden;
+
+}
+.container-side{
+    width: 40%;
+    height: 100%;
+    background: url("images/bg-sidebar-desktop.svg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: white;
+    
+}
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+.login-details{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+.title{
+    color: #405bbf;
+    margin-bottom: 45px;
+}
+label{
+    color:#6158FF;;
+}
+.input-field{
+    border-bottom: 1px solid #67659c;
+    margin-bottom: 15px;
+    
+}
+.input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 0 ;
+    font-size: 0.7em;
+   
+}
+.terms{
+    display: flex;
+    align-items: center;
+    font-size: .7em;
+    margin-bottom: 40px;
+    
+}
+.terms label{
+    color: black;
+}
+.terms span{
+    color: #485BBC;
+}
+.check{
+    margin-right: 5px;
+    
+}
+.sign-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4259C0;
+    border-bottom: 30px;
+    font-weight: 700;
+    font-size: medium;
+}
+.arrow-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    color: white;
+    background-color: #4259C0;
+    text-align: center;
+    border-radius: 50%;
+    
+}
+.arrow-right i{
+    font-size: 1.2em;
+}
+.sign-in a{
+    color: #4259C0;
+    font-size: 0.6em;
+    font-weight: 500;
+}
